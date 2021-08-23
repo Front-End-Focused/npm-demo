@@ -1,0 +1,30 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "* Именования ветки: `год_имя` (i.e. `2021_xxx`)",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint ./2021_Egor/app.js",
+    "lint:fix": "eslint ./2021_Egor/app.js --fix",
+    "clean": "prettier --write ./2021_Egor/app.js --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Front-End-Focused/npm-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Front-End-Focused/npm-demo/issues"
+  },
+  "homepage": "https://github.com/Front-End-Focused/npm-demo#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  }
+}
